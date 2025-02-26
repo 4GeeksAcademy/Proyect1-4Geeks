@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 765px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    font-size: x-large;
+    padding: 5px;
+}
+
+img {
+    margin: 5px 0;
+    width: 100%;
+    height: auto;   
+}
+
+.post {
+    background-color: white;
+    width: 40%;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.post-body {
+    padding: 5px;
+}
+
+.user {
+    display: flex;
+}
+
+.username {
+    padding-left: 8px;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3px;
+}
+
+.description {
+    padding: 5px;
+}
+
+.post-body p {
+    padding: 5px;
+}
